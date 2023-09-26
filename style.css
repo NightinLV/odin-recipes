@@ -1,6 +1,13 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
     background-color: rgb(120, 166, 180);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .title {
@@ -11,7 +18,7 @@ body {
 .recipe-list {
     background-color: lightgrey;
     text-align: center;
-    width: 420px;
+    width: 450px;
     height: 400px;
     display: block;
     margin-left: auto;
@@ -27,16 +34,45 @@ body {
     font-weight: bold;
 }
 
+.ingredients-list ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.ingredients-list {
+    background-color: lightgrey;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ol {
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
 a {
     text-decoration: none;
     color: rgb(50, 52, 87)
 }
 
 a:hover {
-    font-size 60px;
     background-color: darkslategray;
     color: white;
     padding: 5px;
     border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 40px;
 }
 
