@@ -1,18 +1,38 @@
 html {
     background-color: #d0d9d2;
+    font-family: Georgia, Verdana, Tahoma, sans-serif;
 }
 
 h1,
-#recipe-names {
+h2,
+h3,
+h4,
+ul {
     text-align: center;
 }
 
-#recipe-names {
+
+#recipe-names,
+ul {
     list-style: none;
     padding-left: 0px;
     margin: auto;
+    text-align: center;
 }
 
 #recipe-names > li {
     padding: 35px 0px 35px 0px;
+    font-size: 25px;
+}
+
+img,
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    font-family: Tahoma;
 }
